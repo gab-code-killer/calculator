@@ -1,0 +1,16 @@
+.titre {
+    text-align: center;
+    margin-top: 35px;
+}
+
+h1 {
+    display: inline;
+    background-color: rgb(255, 34, 34);
+    padding: 20px;
+    border-radius: 30px;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+}
