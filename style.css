@@ -14,3 +14,104 @@ h1 {
 body {
     background-color: black;
 }
+
+.container {
+    display: grid;
+    gap: 5px;
+    width: fit-content;
+    grid-template-areas:
+    "MR Mmoins Mplus divise"
+        "sept huit neuf fois"
+        "quatre cinq six moins"
+        "un deux trois plus"
+        "zero point egale plus";
+}
+
+.centre {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.un {
+    grid-area: un;
+}
+
+.deux {
+    grid-area: deux;
+}
+
+.trois {
+    grid-area: trois;
+}
+
+.quatre {
+    grid-area: quatre;
+}
+
+.cinq {
+    grid-area: cinq;
+}
+
+.six {
+    grid-area: six;
+}
+
+.sept {
+    grid-area: sept;
+}
+
+.huit {
+    grid-area: huit;
+}
+
+.neuf {
+    grid-area: neuf;
+}
+
+.zero {
+    grid-area: zero;
+}
+
+.point {
+    grid-area: point;
+}
+
+.egale {
+    grid-area: egale;
+}
+
+.plus {
+    grid-area: plus;
+    height: 206px;
+}
+
+.moins {
+    grid-area: moins;
+}
+
+.fois {
+    grid-area: fois;
+}
+
+.divise {
+    grid-area: divise;
+}
+
+.Mplus {
+    grid-area: Mplus;
+}
+
+.Mmoins {
+    grid-area: Mmoins;
+}
+
+.MR {
+    grid-area: MR;
+}
